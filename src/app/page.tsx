@@ -14,6 +14,10 @@ export default function Home() {
 
   const [schema, setSchema] = useState("");
 
+  const handleClearSchema = () => {
+    setSchema("");
+  };
+
   const { completion, handleSubmit, input, handleInputChange } = useCompletion({
     api: "/api/completion",
     body: {
@@ -64,14 +68,14 @@ export default function Home() {
           />
         </svg>
 
-        <button type="button">
+        <button type="button" onClick={handleClearSchema}>
           <Trash2 className="h-8 w-8 text-snow" strokeWidth={0.8} />
         </button>
       </header>
 
       <form onSubmit={handleSubmit} className="py-8 w-full flex flex-col text-foam">
         <label htmlFor="schema" className="text-lg font-light">
-          Cole seu código SQL aqui:
+          Paste your SQL code here:
         </label>
 
         <Editor
@@ -85,7 +89,7 @@ export default function Home() {
         />
 
         <label htmlFor="question" className="text-lg font-light">
-          Faça uma pergunta sobre o código:
+        Enter how you want your query:
         </label>
         <textarea
           className="h-40 my-4 bg-blueberry-600 border border-blueberry-300 rounded-md px-4 py-3 outline-none focus:ring-1 focus:ring-lime-600"
@@ -100,13 +104,13 @@ export default function Home() {
           className="text-pistachio flex items-center justify-center rounded-lg border border-pistachio h-14 gap-2"
         >
           <Stars className="w-6 h-6 " />
-          Perguntar à inteligência artificial
+          Ask the Artificial Intelligence
         </button>
       </form>
 
       <div className="mt-6">
         <span className="text-lg font-light text-foam">
-          Faça uma pergunta sobre o código:
+         Generated Query:
         </span>
 
         <textarea
