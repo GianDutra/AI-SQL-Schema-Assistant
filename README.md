@@ -1,4 +1,4 @@
-# AI-SQL [:us: Video Tutorial](https://www.youtube.com/watch?v=5T5D4kfVNG8) | [:brazil: Video Tutorial](https://www.youtube.com/watch?v=vkOblTUN2MA)
+# AI-SQL-QUERY-GEN [:us: Video Tutorial](https://www.youtube.com/watch?v=5T5D4kfVNG8) | [:brazil: Video Tutorial](https://www.youtube.com/watch?v=vkOblTUN2MA)
 
 
 
