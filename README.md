@@ -1,16 +1,18 @@
-# AI-SQL-Schema-Assistant ([English Video Tutorial](https://www.youtube.com/watch?v=5T5D4kfVNG8)) ([Portuguese Video Tutorial](https://www.youtube.com/watch?v=vkOblTUN2MA))
+# AI-SQL-Schema-Assistant
+[English Video Tutorial](https://www.youtube.com/watch?v=5T5D4kfVNG8) |
+[Portuguese Video Tutorial](https://www.youtube.com/watch?v=vkOblTUN2MA)
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GianDutra/video-transcription-with-AI?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GianDutra/AI-SQL-Schema-Assistant?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GianDutra/video-transcription-with-AI">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GianDutra/AI-SQL-Schema-Assistant">
 
-   <a href="https://github.com/GianDutra/video-transcription-with-AI/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GianDutra/video-transcription-with-AI">
+   <a href="https://github.com/GianDutra/AI-SQL-Schema-Assistant/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GianDutra/AI-SQL-Schema-Assistant">
   </a>
   
 </p>
-<img src="./.github/1.png" alt="video-transcription-with-AI" title="video-transcription-with-AI">
+<img src="./.github/1.png" alt="AI-SQL-Schema-Assistant" title="AI-SQL-Schema-Assistant">
 > Project developed as a challenge - Let's Code!
 
 ## Tech Stack
