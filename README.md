@@ -43,7 +43,7 @@ Before you start, make sure you have installed:
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:GianDutra/AI-SQL-Schema-Assistant.git
+$ git clone https://github.com/GianDutra/AI-SQL-Schema-Assistant.git
 
 # Access the project folder in your terminal
 $ cd AI-SQL-Schema-Assistant
